@@ -14,7 +14,7 @@ description: AntiGravity 開工/收工/新專案初始化流程。說「開工�
 
 ## 收工
 1. 檢查敏感資料（API key、token、學生真名等）
-2. 更新專案筆記（完成事項、下一步、踩坑）
+2. 在 Obsidian 建立獨立的【YYYY.M.D收工紀錄.md】檔案（不記在專案駕駛艙下）
 3. 只在規則改變時更新 ANTIGRAVITY.md
 4. 檢查 git status + diff
 5. 只 stage 本次相關檔案（不用 `git add .`）

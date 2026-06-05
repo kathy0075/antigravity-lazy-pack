@@ -19,7 +19,7 @@ Obsidian vault：g:/我的雲端硬碟/secondbrain
 - 涉及檔案操作時回報完整產出位置。
 - 使用 PowerShell 語法。
 - 開工時讀本檔、讀 Obsidian 駕駛艙、檢查 Git 狀態。
-- 收工時更新 Obsidian，必要時更新本檔，檢查 diff 後只提交相關檔案。
+- 收工時直接在 Obsidian 建立獨立的【YYYY.M.D收工紀錄】檔案（不記在專案駕駛艙下），必要時更新本檔，檢查 diff 後只提交相關檔案。
 - 不把每日流水帳寫進本檔。
 
 ## 不要做
