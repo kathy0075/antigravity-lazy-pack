@@ -280,7 +280,7 @@ Anti-Gravity 可使用專案根目錄的 `ANTIGRAVITY.md` 作為 AI 工作規則
 使用者說「收工」時，AI 應：
 
 1. 檢查是否有敏感資料：API key、token、憑證、NotebookLM 匯出清單、學生真名。
-2. 直接在 Obsidian 建立獨立的【YYYY.M.D收工紀錄.md】檔案記錄完成事項、下一步、踩坑（不記在專案駕駛艙下）。
+2. 在 Obsidian 的 `每日筆記/` 建立獨立的【YYYY-MM-DD 收工紀錄.md】檔案（與 secondbrain CLAUDE.md 收工規範一致；同日已有則追加場次，不另建檔、不放 vault 根目錄、不記在專案駕駛艙下），記錄完成事項、下一步、踩坑。
 3. 只有固定規則或路徑改變時才更新 `ANTIGRAVITY.md`。
 4. 執行 `git status` 與 diff 檢查。
 5. 只 stage 本次相關檔案，不使用無差別 `git add .`。
